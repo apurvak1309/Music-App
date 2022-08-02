@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="72dp"
+        android:layout_height="78dp"
+        android:layout_alignBottom="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:layout_x="2dp"
+        android:layout_y="7dp"
+        android:elevation="2dp"
+        android:src="@drawable/music" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:layout_x="96dp"
+        android:layout_y="9dp"
+        android:elevation="2dp"
+        android:text="TextView 1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:layout_x="96dp"
+        android:layout_y="34dp"
+        android:elevation="2dp"
+        android:text="TextView 2" />
+
+</AbsoluteLayout>
